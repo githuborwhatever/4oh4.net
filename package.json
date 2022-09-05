@@ -1,0 +1,19 @@
+{
+  "name": "4oh4.net",
+  "version": "1.0.0",
+  "description": "just a personal website.",
+  "main": "index.ts",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/githuborwhatever/4oh4.net.git"
+  },
+  "author": "Eric Brooks",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/githuborwhatever/4oh4.net/issues"
+  },
+  "homepage": "https://github.com/githuborwhatever/4oh4.net#readme"
+}

@@ -4,7 +4,8 @@
   "description": "just a personal website.",
   "main": "index.ts",
   "scripts": {
-    "test": "test"
+    "build": "npm run build",
+    "test": "npm run test"
   },
   "repository": {
     "type": "git",

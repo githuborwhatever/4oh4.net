@@ -3,7 +3,7 @@ import React from 'react';
 function Blender() {    
   return (
     <>
-        blender
+        <h2>blender</h2>
     </>
   );
 }

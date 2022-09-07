@@ -1,9 +1,12 @@
 import React from 'react';
+import FalloutJunk from './FalloutJunk/FalloutJunk';
 
-function Tabletop() {    
+function Tabletop() {
   return (
     <>
-        tabletop
+        <h2>tabletop</h2>
+
+        <FalloutJunk />
     </>
   );
 }

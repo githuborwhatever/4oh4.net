@@ -3,7 +3,7 @@ import React from 'react';
 function Keyboards() {    
   return (
     <>
-        keyboards
+        <h2>keyboards</h2>
     </>
   );
 }

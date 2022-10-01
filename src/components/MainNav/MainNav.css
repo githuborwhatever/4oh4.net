@@ -1,0 +1,11 @@
+.main-nav li {
+    list-style: none;
+}
+
+.main-nav > ul > li {
+    border-left: 1px solid black;
+    display: inline-block;
+    padding: 10px;
+    margin-right: 10px;
+    vertical-align: top;
+}

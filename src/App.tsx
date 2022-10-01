@@ -1,13 +1,12 @@
-import React from 'react';
-
 import {
   BrowserRouter as Router,
   Routes,
   Route
 } from "react-router-dom";
 
+import './App.css';
+
 import MainHeader from './components/MainHeader/MainHeader';
-import Breadcrumbs from './components/Breadcrumbs/Breadcrumbs';
 import MainFooter from "./components/MainFooter/MainFooter";
 import Home from './components/Home/Home';
 import Projects from './components/Projects/Projects';
@@ -15,9 +14,6 @@ import Programs from './components/Programs/Programs';
 import Tabletop from './components/Tabletop/Tabletop';
 import Keyboards from './components/Keyboards/Keyboards';
 import Blender from './components/Blender/Blender';
-import Hire from './components/Hire/Hire';
-
-import './App.css';
 
 function App() {
   return (
@@ -25,18 +21,14 @@ function App() {
       <header>
         <MainHeader />
       </header>
-      <nav>
-        <Breadcrumbs />
-      </nav>
       <main>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
-          <Route path="/programs" element={<Programs />} />
-          <Route path="/tabletop" element={<Tabletop />} />
-          <Route path="/keyboards" element={<Keyboards />} />
-          <Route path="/models" element={<Blender />} />
-          <Route path="/hire" element={<Hire />} />
+          <Route path="/projects/programs" element={<Programs />} />
+          <Route path="/projects/tabletop" element={<Tabletop />} />
+          <Route path="/projects/keyboards" element={<Keyboards />} />
+          <Route path="/projects/models" element={<Blender />} />
         </Routes>
       </main>
       <footer>
